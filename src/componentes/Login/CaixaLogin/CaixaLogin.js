@@ -1,12 +1,12 @@
 import React, { use } from 'react'
 import Logo from './Logo.svg'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 export default function CaixaLogin(){
     const navigate = useNavigate()
 
     const fazerLogin = () => {
-        const loginSucesso = true
+        let loginSucesso = false
         const usuario = document.querySelector('.Usuario').value
         const senha = document.querySelector('.Senha').value
         console.log(usuario)
@@ -20,17 +20,22 @@ export default function CaixaLogin(){
         }
     }
 
+    const alterarSenha = () => {
+        const alterar = document.querySelector('.Alterar')
+        navigate('/painel-administrativo')
+    }
+
     return(
         <div className='CaixaLogin'>
             <img className='Logo' src={Logo} alt='aa'/>
             <div className='campo'>
             <div className='campos'>
                 <input className='Usuario campo-login'  type='text'></input>
-                <input className='Senha campo-login'  type='text'></input>
+                <input className='Senha campo-login'  type='password'></input>
             </div>
                 <button className='Entrar' onClick={fazerLogin}>Entrar</button>
 
-            <a href='https://google.com'>Esqueceu a senha?</a>
+            <Link to='/alterar-senha'>Esqueceu a senha?</Link>
             </div>
       
         </div>
