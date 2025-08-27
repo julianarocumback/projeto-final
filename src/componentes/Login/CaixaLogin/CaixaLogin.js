@@ -20,22 +20,17 @@ export default function CaixaLogin(){
         }
     }
 
-    const alterarSenha = () => {
-        const alterar = document.querySelector('.Alterar')
-        navigate('/painel-administrativo')
-    }
-
     return(
         <div className='CaixaLogin'>
             <img className='Logo' src={Logo} alt='aa'/>
             <div className='campo'>
-            <div className='campos'>
-                <input className='Usuario campo-login'  type='text'></input>
-                <input className='Senha campo-login'  type='password'></input>
-            </div>
-                <button className='Entrar' onClick={fazerLogin}>Entrar</button>
+                <div className='campos'>
+                    <input className='Usuario campo-login'  type='text'></input>
+                    <input className='Senha campo-login'  type='password'></input>
+                </div>
+                    <button className='botao' onClick={fazerLogin}>Entrar</button>
 
-            <Link to='/alterar-senha'>Esqueceu a senha?</Link>
+                <Link to='/enviar-codigo'>Esqueceu a senha?</Link>
             </div>
       
         </div>

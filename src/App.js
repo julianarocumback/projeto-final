@@ -3,8 +3,10 @@ import Login from './componentes/Login/Login.js'
 import Paciente from './componentes/PainelPac/PainelPac.js'
 import Profissional from './componentes/PainelPro/PainelPro.js'
 import Admnistrador from './componentes/PainelAdm/PainelAdm.js'
-import AlterarSenha from './componentes/AlterarSenha/AlterarSenha.js'
-import Email from './componentes/AlterarSenha/Email.js'
+import AlterarSenha from './componentes/AlterarSenha/EnviarCodigo.js'
+import Email from './componentes/AlterarSenha/VerificarCodigo.js'
+import NovaSenha from './componentes/AlterarSenha/NovaSenha.js'
+import SenhaAlterada from './componentes/AlterarSenha/SenhaAlterada.js'
 
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
         <Route path='/painel-paciente' element={<Paciente/>}/>
         <Route path='/painel-medico' element={<Profissional/>}/>
         <Route path='/painel-administrativo' element={<Admnistrador/>}/>
-        <Route path='/alterar-senha' element={<AlterarSenha/>}/>
-        <Route path='/inserir-email' element={<Email/>}/>
+        <Route path='/enviar-codigo' element={<AlterarSenha/>}/>
+        <Route path='/verificar-codigo' element={<Email/>}/>
+        <Route path='/nova-senha' element={<NovaSenha/>}/>
+        <Route path='/senha-alterada' element={<SenhaAlterada/>}/>
       </Routes>
     </div>
   )

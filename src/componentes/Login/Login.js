@@ -5,7 +5,7 @@ import CaixaLogin from './CaixaLogin/CaixaLogin'
 
 export default function Login(){
     return (
-        <div className='Login'>
+        <div className='Login container'>
             <Banner/>
             <CaixaLogin/>
         </div>
