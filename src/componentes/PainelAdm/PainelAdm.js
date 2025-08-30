@@ -1,12 +1,18 @@
 import React from 'react'
-import CabecalhoPaciente from '../PainelPac/CabecalhoPaciente'
+import Cabecalho from '../Cabecalho/Cabecalho'
+import Painel from './PainelMenu'
+import LeitosPainel from './LeitosPainel'
 
 export default function PainelaDM(){
 
     return(
-        <div>
-            <CabecalhoPaciente/>
-            <p>EWAEWAEWA</p>
+        <div className='painel-adm'>
+            <div className='paineis'>
+                <LeitosPainel/>
+                <LeitosPainel/>
+                <LeitosPainel/>
+            </div>
+            <Painel/>
         </div>
     )
 }

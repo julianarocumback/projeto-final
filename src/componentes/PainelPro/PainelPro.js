@@ -1,10 +1,14 @@
 import React from 'react'
+import Cabecalho from './Cabecalho'
+import MainPro from './MainPro'
+
 
 export default function PainelPro(){
 
     return(
-        <div>
-            <p>ewae we aewa ewa</p>
+        <div className='PainelPac'>
+            <Cabecalho/>
+            <MainPro/>
         </div>
     )
 }

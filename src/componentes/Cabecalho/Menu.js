@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './logo-painel.svg'
+import Logo from '../Cabecalho/logo-painel.svg'
 import {Link} from 'react-router-dom'
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import CabecalhoPaciente from '../PainelPac/CabecalhoPaciente'
+import CabecalhoPaciente from '../Cabecalho/Cabecalho'
 import {useNavigate, Link} from 'react-router-dom'
 
 

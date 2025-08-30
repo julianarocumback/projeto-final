@@ -1,12 +1,12 @@
 import React from 'react'
-import CabecalhoPaciente from '../PainelPac/CabecalhoPaciente'
+import Cabecalho from '../Cabecalho/Cabecalho'
 import MainPaciente from '../PainelPac/MainPaciente'
 
 export default function PainelPac(){
 
     return(
         <div className='PainelPac'>
-            <CabecalhoPaciente/>
+            <Cabecalho/>
             <MainPaciente/>
         </div>
     )
