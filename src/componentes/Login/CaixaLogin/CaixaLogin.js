@@ -25,8 +25,8 @@ export default function CaixaLogin(){
             <img className='Logo' src={Logo} alt='aa'/>
             <div className='campo'>
                 <div className='campos'>
-                    <input className='Usuario campo-login'  type='text'></input>
-                    <input className='Senha campo-login'  type='password'></input>
+                    <input className='Usuario campo-login'  type='text' placeholder='Usuário: PAC-001 ou PRO-001 ou ADM-001'></input>
+                    <input className='Senha campo-login'  type='password' placeholder='Senha: 123'></input>
                 </div>
                     <button className='botao' onClick={fazerLogin}>Entrar</button>
 

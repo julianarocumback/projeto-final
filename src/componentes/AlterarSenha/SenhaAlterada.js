@@ -11,7 +11,7 @@ export default function SenhaAlterada(){
                 <img className='Logo' src={Logo}/>
                 <div className='campo'>
                     <div className='campos'>                
-                        <p>Senha alterada com sucesso!</p>
+                        <p><i class="fa-solid fa-circle-check"></i> Senha alterada com sucesso!</p>
                         <Link to='/' className='botao'>Voltar a página inicial</Link>
                 </div>
                 </div>

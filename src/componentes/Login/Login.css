@@ -109,6 +109,9 @@
 .MainPaciente{
     margin: 0px 40px 0px 40px;
     /* margin-inline: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .Menu {
@@ -125,7 +128,7 @@
 }
 
 .proximas-consultas {
-    height: calc(100vh / 2);
+    margin-bottom: 70px;
     padding: 50px 0px 0px 0px;
     display: flex;
     flex-direction: column;
@@ -142,7 +145,6 @@
     overflow: visible;
     position: relative;
     overflow: hidden;
-    
 }
 
 .consulta {
@@ -204,6 +206,8 @@
     background-size: cover;
     padding: 15px;
     font-weight: 500;
+    cursor: pointer;
+
 }
 
 .servicos-imagem2{
@@ -214,6 +218,8 @@
     background-size: cover;
     padding: 15px;
     font-weight: 500;
+    cursor: pointer;
+
 }
 
 
@@ -400,7 +406,6 @@ input[placeholder]{
         height: 2rem;
         border-radius: 0.5rem;
         border: none;
-        /* box-shadow: 0px 0px 2px 0px rgb(0, 0, 0); */
         background-color: rgb(202, 202, 202);
         padding-left: 10px;
         font-weight: 700;
@@ -444,5 +449,9 @@ input[placeholder]{
     .video {
     height: 450px;
     border-radius: 20px ;
-}
+    }
+
+    .MainPaciente{
+    margin: 0px 350px 0px 350px;
+    }
 }
