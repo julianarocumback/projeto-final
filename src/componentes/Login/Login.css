@@ -255,12 +255,13 @@ a {
 
 .telechamada-codigo-corpo {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
-    padding: 50px 50px 50px 60px;
-    align-items: center;
+    padding: 200px 0px 0px 0px;
+    /* align-items: center; */
     text-align: center;
+    border: 1px solid red;
 }
 
 .telechamada-container {
