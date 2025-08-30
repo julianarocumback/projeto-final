@@ -464,6 +464,72 @@ input[placeholder]{
     font-weight: 700;
 }
 
+.suprimentos-painel {
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 20px 50px 20px 50px;
+}
+
+.suprimentos-painel-info {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 0.5rem;
+}
+
+.suprimentos-painel-info-produto {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    flex-direction: column;
+    padding-top: 0.5rem;
+}
+
+.painel-info-produto{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.p-nome-produto {
+    width: 100px;
+}
+
+.p-quantidade-produto {
+    width: 100px;
+}
+
+.pouco {
+    color: red;
+}
+
+
+.financeiro-painel {
+    /* border: 1px solid black; */
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.financeiro-painel p {
+    font-size: 2rem;
+    color: green;
+    font-weight: 700;
+}
+
+
 
 @media (min-width: 701px){
     .container {
