@@ -13,7 +13,7 @@ export default function ProximasConsultas(){
                         <p>02/08/2025<br/>às 09:00</p>
                     </div>
                     <div className='consulta-botao'>
-                        <Link to='/painel-paciente/telechamada'>Participar da telechamada</Link>
+                        <Link to='/painel-paciente/telechamada-codigo'>Participar da telechamada</Link>
                     </div>
                 </div>
                 <div className='consulta consulta2'>
@@ -23,7 +23,7 @@ export default function ProximasConsultas(){
                         <p>02/08/2025<br/>às 09:00</p>
                     </div>
                     <div className='consulta-botao'>
-                        <Link to='/painel-paciente/telechamada'>Participar da telechamada</Link>
+                        <Link to='/painel-paciente/telechamada-codigo'>Participar da telechamada</Link>
                     </div>
                 </div>
                 <div className='consulta consulta3'>
@@ -33,7 +33,7 @@ export default function ProximasConsultas(){
                         <p>02/08/2025<br/>às 09:00</p>
                     </div>
                     <div className='consulta-botao'>
-                        <Link to='/painel-paciente/telechamada'>Participar da telechamada</Link>
+                        <Link to='/painel-paciente/telechamada-codigo'>Participar da telechamada</Link>
                     </div>
                 </div>
                             

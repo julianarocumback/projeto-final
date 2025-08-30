@@ -1,9 +1,27 @@
 import React from 'react'
+import CabecalhoPaciente from './CabecalhoPaciente'
+import { Link } from 'react-router-dom'
 
-export default function Telechamada () {
+
+
+export default function TelechamadaCodigo () {
     return (
-        <div>
-            <p>awejwilao</p>
+        <div className='telechamada'>
+            <CabecalhoPaciente/>
+            <div className='telechamada-corpo'>
+                <div className='telechamada-principal'>
+                    <h3>Teleconsulta</h3>
+                    <div className='teleconsulta-botoes'>
+                        <div className='video'></div>
+                    </div>
+                    <div></div>
+                    <div className='telechamada-botao'>
+                        <button className='tele-botao'><i class="fa-solid fa-microphone-lines"></i></button>
+                        <button className='tele-botao'><i class="fa-solid fa-camera"></i></button>
+                        <button className='tele-botao'><i class="fa-solid fa-square-xmark"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
