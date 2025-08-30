@@ -282,7 +282,6 @@ input[placeholder]{
 
 
 .telechamada-corpo {
-    border: 1px solid red;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -436,6 +435,14 @@ input[placeholder]{
     .MainPaciente{
     /* margin: 0px 400px 0px 400px; */
     /* margin-inline: auto; */
-}
+    }
+
+    .telechamada-corpo {
+        padding: 50px 350px 50px 350px;
+    }
     
+    .video {
+    height: 450px;
+    border-radius: 20px ;
+}
 }
