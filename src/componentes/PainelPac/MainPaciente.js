@@ -8,7 +8,7 @@ import ServicosDisponiveis from './ServicosDisponiveis'
 
 export default function MainPaciente(){
     return (
-        <div className='MainPaciente'>
+        <div className='MainPaciente container'>
             <ProximasConsultas/>
             <ServicosDisponiveis/>
         </div>

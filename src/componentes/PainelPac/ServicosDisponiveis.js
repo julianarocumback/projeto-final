@@ -7,20 +7,21 @@ export default function ServicosDisponiveis(){
             <h2>Serviços disponiveis</h2>
             <div className='container-consultas'>
                 <div className='consulta'>
-                    <div className='consulta-imagem1'>
-                        <h3>Cardiologista</h3>
-                        <h4>A distância</h4>
-                        <p>02/08/2025<br/>às 09:00</p>
+                    <div className='servicos-imagem1'>
+                        <h3>Consultas</h3>
+                        <p>- Agendar</p>
+                        <p>- Cancelar </p>
+                        <p>- Visualizar</p>
                     </div>
                     <div className='consulta-botao'>
                         <Link to='/'>Participar da telechamada</Link>
                     </div>
                 </div>
                 <div className='consulta consulta2'>
-                    <div className='consulta-imagem2'>
-                        <h3>Cardiologista</h3>
-                        <h4>A distância</h4>
-                        <p>02/08/2025<br/>às 09:00</p>
+                    <div className='servicos-imagem2'>
+                        <h3>Histórico Clínico</h3>
+                        <p>- Visualizar</p>
+   
                     </div>
                     <div className='consulta-botao'>
                         <Link to='/'>Participar da telechamada</Link>

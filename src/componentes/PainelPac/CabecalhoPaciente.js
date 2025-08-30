@@ -8,9 +8,11 @@ import Menu from '../PainelPac/Menu'
 
 export default function CabecalhoPaciente(){
     let barra = document.querySelector('.barra')
+    let menu = document.querySelector('.Menu')
+   
 
     let mostrar = () => {
-        barra.hidden = 'true'
+        menu.hidden = 'true'
     }
 
     return (
@@ -18,8 +20,8 @@ export default function CabecalhoPaciente(){
             <header className='header-pac'>
                 <Link to='/painel-paciente'><img className='logo-painel' src={Logo}/>
                 </Link>
-                <div>
-                    <i onClick={mostrar} class="fa-solid fa-bars barra"></i>
+                <div className='barra' onClick={mostrar}>
+                    <i class="fa-solid fa-bars"></i>
                 </div>
           
 

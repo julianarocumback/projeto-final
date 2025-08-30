@@ -108,6 +108,7 @@
 
 .MainPaciente{
     margin: 0px 40px 0px 40px;
+    /* margin-inline: auto; */
 }
 
 .Menu {
@@ -116,9 +117,11 @@
     background-color: rgba(0, 0, 0, 0.39);
     position: absolute;
     right: 0;
-    /* top: 0; */
+    top: 100px;
     /* display: none; */
     /* z-index: 0; */
+    cursor: pointer;
+
 }
 
 .proximas-consultas {
@@ -156,6 +159,10 @@
     left: 330px;
 }
 
+.consulta3 {
+    left: 660px;
+}
+
 .consulta-imagem1{
     background-image: url(../../imgs/cardiologista.jpeg);
     width: 100%;
@@ -163,7 +170,7 @@
     background-repeat: none;
     background-size: cover;
     direction: rtl;
-    padding: 10px;
+    padding: 15px;
     font-weight: 500;
 }
 
@@ -174,9 +181,42 @@
     background-repeat: none;
     background-size: cover;
     direction: rtl;
-    padding: 10px;
+    padding: 15px;
     font-weight: 500;
 }
+
+.consulta-imagem3{
+    background-image: url(../../imgs/psicologo.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: none;
+    background-size: cover;
+    direction: rtl;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.servicos-imagem1{
+    background-image: url(../../imgs/consultas.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: none;
+    background-size: cover;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.servicos-imagem2{
+    background-image: url(../../imgs/Image_fx\ \(17\).jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: none;
+    background-size: cover;
+    padding: 15px;
+    font-weight: 500;
+}
+
+
 
 .consulta-botao {
     height: 50px;
@@ -305,5 +345,10 @@ a {
     .header {
         flex-direction: column;
     }
+
+    .MainPaciente{
+    /* margin: 0px 400px 0px 400px; */
+    /* margin-inline: auto; */
+}
     
 }

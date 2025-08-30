@@ -13,20 +13,32 @@ export default function ProximasConsultas(){
                         <p>02/08/2025<br/>às 09:00</p>
                     </div>
                     <div className='consulta-botao'>
-                        <Link to='/'>Participar da telechamada</Link>
+                        <Link to='/painel-paciente/telechamada'>Participar da telechamada</Link>
                     </div>
                 </div>
                 <div className='consulta consulta2'>
                     <div className='consulta-imagem2'>
-                        <h3>Cardiologista</h3>
+                        <h3>Nutricionista</h3>
                         <h4>A distância</h4>
                         <p>02/08/2025<br/>às 09:00</p>
                     </div>
                     <div className='consulta-botao'>
-                        <Link to='/'>Participar da telechamada</Link>
+                        <Link to='/painel-paciente/telechamada'>Participar da telechamada</Link>
                     </div>
-
                 </div>
+                <div className='consulta consulta3'>
+                    <div className='consulta-imagem3'>
+                        <h3>Psicólogo</h3>
+                        <h4>A distância</h4>
+                        <p>02/08/2025<br/>às 09:00</p>
+                    </div>
+                    <div className='consulta-botao'>
+                        <Link to='/painel-paciente/telechamada'>Participar da telechamada</Link>
+                    </div>
+                </div>
+                            
+                
+                
             </div>
         </div>
     )

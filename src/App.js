@@ -7,6 +7,7 @@ import AlterarSenha from './componentes/AlterarSenha/EnviarCodigo.js'
 import Email from './componentes/AlterarSenha/VerificarCodigo.js'
 import NovaSenha from './componentes/AlterarSenha/NovaSenha.js'
 import SenhaAlterada from './componentes/AlterarSenha/SenhaAlterada.js'
+import Telechamada from './componentes/PainelPac/Telechamada.js'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/verificar-codigo' element={<Email/>}/>
         <Route path='/nova-senha' element={<NovaSenha/>}/>
         <Route path='/senha-alterada' element={<SenhaAlterada/>}/>
+        <Route path='/painel-paciente/telechamada' element={<Telechamada/>}/>
       </Routes>
     </div>
   )

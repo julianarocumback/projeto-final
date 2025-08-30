@@ -10,6 +10,7 @@ export default function PainelPac(){
         <div className='PainelPac container'>
             <CabecalhoPaciente/>
             <MainPaciente/>
+            <Menu/>
         </div>
     )
 }
