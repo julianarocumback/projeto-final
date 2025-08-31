@@ -699,10 +699,7 @@ input[placeholder]{
         flex-direction: column;
     }
 
-    .MainPaciente{
-    /* margin: 0px 400px 0px 400px; */
-    /* margin-inline: auto; */
-    }
+
 
     .telechamada-corpo {
         padding: 50px 350px 50px 350px;

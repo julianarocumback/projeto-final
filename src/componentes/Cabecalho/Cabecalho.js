@@ -15,7 +15,7 @@ export default function Cabecalho(){
     return (
         <div>
             <header className='header-pac'>
-                <Link to='/painel-paciente'><img className='logo-painel' src={Logo}/></Link>
+                <Link to='/painel-paciente'><img className='logo-painel' src={Logo} alt=''/></Link>
                 <div className='barra' onClick={mostrar}>
                     <i class="fa-solid fa-bars"></i>
                 </div>
