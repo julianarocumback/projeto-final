@@ -114,16 +114,22 @@
     justify-content: center;
 }
 
-.Menu {
+.menu {
     width: 500px;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.39);
+    background-image: linear-gradient(90deg, #EDEEE8, #ffffff);
     position: absolute;
     right: 0;
-    top: 100px;
-    /* display: none; */
-    /* z-index: 0; */
+    top: 50px;
     cursor: pointer;
+    display: none;
+    border: 1px solid black;
+
+}
+
+.esconder {
+    display: block;
+    z-index: 100;
 
 }
 

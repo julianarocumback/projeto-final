@@ -1,17 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Logo from './logo-painel.svg'
 import {Link} from 'react-router-dom'
 import Menu from './Menu'
 
-
-
-
 export default function Cabecalho(){
-    let barra = document.querySelector('.barra')   
-
-    let mostrar = () => {
-        // menu.hidden = 'true'
+    const [estaVisivel, setEstaVisivel] = useState(false)
+        
+    const mostrar = () => {
+        setEstaVisivel(!estaVisivel)
     }
+
+    
 
     return (
         <div>
@@ -20,8 +19,9 @@ export default function Cabecalho(){
                 <div className='barra' onClick={mostrar}>
                     <i class="fa-solid fa-bars"></i>
                 </div>
-          
 
+                {/* <div className={classes}></div> */}
+                <Menu visivel={estaVisivel}/>
             </header>
         </div>
     )

@@ -1,12 +1,14 @@
 import React from 'react'
-import Logo from '../Cabecalho/logo-painel.svg'
 import {Link} from 'react-router-dom'
 
 
 
-export default function Menu(){
+export default function Menu({visivel}){
+
+    const classes = `menu ${visivel ? 'esconder' : ''}`
+
     return (
-        <div className='Menu'>
+        <div className={classes}>
             <p>sdada</p>
 
                 {/* <Link to='/painel-paciente'><img className='logo-painel' src={Logo}/></Link> */}
