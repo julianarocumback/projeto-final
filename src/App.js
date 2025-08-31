@@ -14,6 +14,9 @@ import Pacientes from './componentes/PainelPro/Pacientes.js'
 import Leitos from './componentes/PainelAdm/Leitos.js'
 import Financeiro from './componentes/PainelAdm/Financeiro.js'
 import Suprimentos from './componentes/PainelAdm/Suprimentos.js'
+import HistoricoClinico from './componentes/PainelPac/HistoricoClinico.js'
+import Consultas from './componentes/PainelPac/Consultas.js'
+import PacientePerfil from './componentes/PainelPac/PacientePerfil.js'
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
         <Route path='/senha-alterada' element={<SenhaAlterada/>}/>
         <Route path='/painel-paciente/telechamada-codigo' element={<TelechamadaCodigo/>}/>
         <Route path='/painel-paciente/telechamada' element={<Telechamada/>}/>
+        <Route path='/painel-paciente/historico-clinico' element={<HistoricoClinico/>}/>
+        <Route path='/painel-paciente/consultas' element={<Consultas/>}/>
+        <Route path='/painel-paciente/perfil' element={<PacientePerfil/>}/>
         
         <Route path='/painel-medico' element={<Profissional/>}/>
         <Route path='/painel-medico/telechamada' element={<TelechamadaMedico/>}/>

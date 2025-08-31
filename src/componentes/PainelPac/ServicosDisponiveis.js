@@ -5,11 +5,11 @@ export default function ServicosDisponiveis(){
     let navigate = useNavigate()
 
     let consultas = () => {
-        navigate('/')
+        navigate('/painel-paciente/consultas')
     }
 
-    let servicos = () => {
-        navigate('/')
+    let historicoClinico = () => {
+        navigate('/painel-paciente/historico-clinico')
     }
 
     return (
@@ -24,7 +24,7 @@ export default function ServicosDisponiveis(){
                         <p>- Visualizar</p>
                     </div>
                 </div>
-                <div on onClick={consultas} className='consulta consulta2'>
+                <div on onClick={historicoClinico} className='consulta consulta2'>
                     <div className='servicos-imagem2'>
                         <h3>Histórico Clínico</h3>
                         <p>- Visualizar</p>
