@@ -18,7 +18,7 @@ export default function PainelDesktop(){
         <div>Unidades</div>
         <div>Profissionais</div>
         <div>Pacientes</div>
-        <div onClick={sair}  className='adm-perfil'>
+        <div onClick={sair} className='adm-perfil'>
             <div className='perfil-adm'><i class="fa-solid fa-circle-user"></i> 
             ADM-001
             <div className='paciente-separador'></div>
