@@ -5,11 +5,11 @@ export default function ServicosDisponiveis(){
     let navigate = useNavigate()
 
     let consultas = () => {
-        navigate('/')
+        navigate('/painel-medico/')
     }
 
     let pacientes = () => {
-        navigate('/painel-medico/pacientes')
+        navigate('/painel-medico/')
     }
 
     return (
@@ -18,9 +18,7 @@ export default function ServicosDisponiveis(){
             <div className='container-consultas'>
                 <div on onClick={consultas} className='consulta'>
                     <div className='servicos-imagem1'>
-                        <h3>Consultas</h3>
-                        <p>- Agendar</p>
-                        <p>- Cancelar </p>
+                        <h3>Consultas</h3>  
                         <p>- Visualizar</p>
                     </div>
                 </div>
@@ -28,6 +26,8 @@ export default function ServicosDisponiveis(){
                     <div className='servicos-imagem3'>
                         <h3>Pacientes</h3>
                         <p>- Visualizar</p>
+                        <p>- Agendar</p>
+                        <p>- Cancelar </p>
                     </div>
                 </div>
             </div>

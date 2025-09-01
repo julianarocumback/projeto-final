@@ -293,7 +293,6 @@ a {
     padding: 200px 0px 0px 0px;
     /* align-items: center; */
     text-align: center;
-    border: 1px solid red;
 }
 
 .telechamada-container {
@@ -431,14 +430,17 @@ input[placeholder]{
 
 .painel-adm {
     background-image: linear-gradient(90deg, #EDEEE8, #ffffff);
-    border: 1px solid red;
     width: 100vw;
     height: 100vh;
     padding: 50px 50px 0px 50px;
-    
 }
 
 .paineis{
+    display: flex;
+    gap: 2rem;
+}
+
+.todos-paineis {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -758,11 +760,32 @@ input[placeholder]{
     border: none;
 }
 
+.menu-paciente{
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+}
 
+.paciente-separador{
+    height: 1rem;
+    width: 2px;
+    background-color: black;
+}
 
+.menu-perfil-paciente{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
 
+.sair{
+    cursor: pointer;
+}
 
-
+.painel-desktop{
+    display: none;
+}
 
 
 
@@ -916,4 +939,51 @@ input[placeholder]{
     width: 150px;
     }
 
+    .barra{
+        display: none;
+    }
+
+    .menu-paciente{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    }
+
+    .painel-adm {
+    background-image: linear-gradient(90deg, #EDEEE8, #ffffff);
+    padding: 50px 350px 0px 350px;
+    }
+
+    .painel-menu {
+        display: none;
+    }
+
+    .painel-desktop {
+        width: 400px;
+        height: 700px;
+        background-color: #EEEFE9;
+        border-radius: 20px;
+        display: flex;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
+        align-items: center;
+        padding: 100px 20px 0px 20px;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .paineis {
+        display: flex;
+    }
+
+    .perfil-adm {
+        position: relative;
+        bottom: 100px;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        bottom: 0;
+    }
+
+    .adm-perfil {
+    }
 }
